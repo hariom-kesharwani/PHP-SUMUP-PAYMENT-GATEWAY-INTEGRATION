@@ -23,16 +23,15 @@ Integration of Sumup Payment Gateway using PHP.
 - Client Id, Client Secret , Redirect Url will be used further for implementing the checkout page.
 - Set these credentials into "gateway.php" file 
 	Change these credential from the file :
-        const CLIENT_ID = "Client Id";
+	`const CLIENT_ID = "Client Id";
         const CLIENT_SECRET = "Client Secret Key";
 		const PAYEE_EMAIL = 'merchant email id';
         const RETURN_URL = 'http://xyz.com/success.php';
         const REDIRECT_URL = "http://xyz.com/verify_payment.php";
         const API_TOKEN_URL = "https://api.sumup.com/token";
         const API_AUTHORIZE_URL = 'https://api.sumup.com/authorize';
-		const API_CHECKOUT_URL = 'https://api.sumup.com/v0.1/checkouts';
-   
-   
+		const API_CHECKOUT_URL = 'https://api.sumup.com/v0.1/checkouts';`
+
 - Change the bill number and amount from the generate_bill.php file.
 
 ###How to Intall 
