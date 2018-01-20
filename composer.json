@@ -1,0 +1,15 @@
+{
+    "name": "hariom/sumup-gateway-integration",
+    "description": "Repository for Integration of Sumup Payment Gateway using PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hariom Kumar",
+            "email": "hariom.kumar.kesharwani@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
