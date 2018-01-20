@@ -1,7 +1,7 @@
 {
     "name": "hariom/sumup-gateway-integration",
     "description": "Repository for Integration of Sumup Payment Gateway using PHP.",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
