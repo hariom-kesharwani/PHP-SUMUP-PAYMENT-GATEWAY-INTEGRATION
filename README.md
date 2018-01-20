@@ -36,7 +36,7 @@ Integration of Sumup Payment Gateway using PHP.
 
 ###How to Intall 
 - `By Cloning the git reporitory`
-- `Install by Composer
-    composer create-project hariom/sumup-gateway-integration		`
+- Install by Composer
+    `composer create-project hariom/sumup-gateway-integration @v1`
 
 ###End
