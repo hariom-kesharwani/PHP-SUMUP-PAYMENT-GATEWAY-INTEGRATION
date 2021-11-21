@@ -14,14 +14,14 @@ Integration of Sumup Payment Gateway using PHP.
 	- After submission of form, they will provide you option to download the credentials.
 	- Credential file is a JSON file which contains merchant credentials. File has the following informations:
 	```
-		{
-			"id": "CCCPV79Q",
-			"name":"Hariom",
-			"client_id":"iXXX7JWbByXXXXopDOgqIXXXXX",
-			"client_secret":"b1f090512aaXXXXXXXXXXXXXXX3e9fb02f1685408dd5b79a1fXXXXXXXXXXXXXX",
-			"application_type":"web",
-			"redirect_uris":["http://xyz.com/verify_payment.php"],"cors_uris":["http://xyz.com"]
-		}
+	{
+		"id": "CCCPV79Q",
+		"name":"Hariom",
+		"client_id":"iXXX7JWbByXXXXopDOgqIXXXXX",
+		"client_secret":"b1f090512aaXXXXXXXXXXXXXXX3e9fb02f1685408dd5b79a1fXXXXXXXXXXXXXX",
+		"application_type":"web",
+		"redirect_uris":["http://xyz.com/verify_payment.php"],"cors_uris":["http://xyz.com"]
+	}
 	```
 	- As you see above that credential file provides the following:
 		- Client Id
@@ -30,16 +30,16 @@ Integration of Sumup Payment Gateway using PHP.
 		- etc..
 - Client Id, Client Secret , Redirect Url will be used further for implementing the checkout page.
 - Set these credentials into "gateway.php" file :
-	```
-	const CLIENT_ID = "Client Id";
-	const CLIENT_SECRET = "Client Secret Key";
-	const PAYEE_EMAIL = 'merchant email id';
-	const RETURN_URL = 'http://xyz.com/success.php';
-	const REDIRECT_URL = "http://xyz.com/verify_payment.php";
-	const API_TOKEN_URL = "https://api.sumup.com/token";
-	const API_AUTHORIZE_URL = 'https://api.sumup.com/authorize';
-	const API_CHECKOUT_URL = 'https://api.sumup.com/v0.1/checkouts';
-	```
+```
+const CLIENT_ID = "Client Id";
+const CLIENT_SECRET = "Client Secret Key";
+const PAYEE_EMAIL = 'merchant email id';
+const RETURN_URL = 'http://xyz.com/success.php';
+const REDIRECT_URL = "http://xyz.com/verify_payment.php";
+const API_TOKEN_URL = "https://api.sumup.com/token";
+const API_AUTHORIZE_URL = 'https://api.sumup.com/authorize';
+const API_CHECKOUT_URL = 'https://api.sumup.com/v0.1/checkouts';
+```
 
 - Change the bill number and amount from the generate_bill.php file.
 
